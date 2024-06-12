@@ -1,5 +1,6 @@
 //Morse Code Practical
 #include <iostream>
+#incude <string> 
 using namespace std;
 int main(){
 {
