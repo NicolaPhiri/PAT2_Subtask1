@@ -16,7 +16,7 @@ int main(){
 //Request that the user enters the message
 string ConvertableMessage;
 cout<< "Please enter your desired converted message";
-getline(cin,ConvertableMessage);
+getline(cin,ConvertableMessage);//separation of characters in entered message
 {
 string MorseMessage(char ch){
     ch = toupper(ch); //Upper case conversion
