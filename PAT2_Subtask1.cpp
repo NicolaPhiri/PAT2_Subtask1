@@ -15,7 +15,7 @@ int main(){
 };
 //Request that the user enters the message
 string ConvertableMessage;
-cout<< "Please enter your desired converted message";
+cout<< "Please enter the message you wish to convert to morse";
 getline(cin,ConvertableMessage);//separation of characters in entered message
 {
 string MorseMessage(char ch){
