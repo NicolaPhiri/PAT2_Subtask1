@@ -2,6 +2,7 @@
 #include <iostream>
 #incude <string> 
 using namespace std;
+
 int main(){
 {
     /*Morse & alphabet array declaration*/
@@ -14,6 +15,7 @@ int main(){
     /*Assigning the morse to an alphabet*/
     memcpy(strMorseArr, strAlphabet, sizeof(strMorseArr));
 };
+    
 //Request that the user enters the message
 string ConvertableMessage;
 cout<< "Please enter the message you wish to convert to morse";
@@ -34,7 +36,8 @@ string MorseMessage(char ch){
     }
 }
 }
- //Call code into main library
+    
+ //Call code into the main library
 string Conversion = AlphaToMorse(ConvertableMessage);
 cout<< "Your message was"<<" "<< ConvertableMessage<<" "<< "and your morse converion is:"<< "\n "<< AlphaToMorse;
     return 0;
