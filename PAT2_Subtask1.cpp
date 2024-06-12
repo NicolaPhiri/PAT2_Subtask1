@@ -39,6 +39,6 @@ string MorseMessage(char ch){
     
  //Call code into the main library
 string Conversion = AlphaToMorse(ConvertableMessage);
-cout<< "Your message was"<<" "<< ConvertableMessage<<" "<< "and your morse converion is:"<< "\n "<< AlphaToMorse;
+cout<< "Your message was"<<" "<< ConvertableMessage<<" "<< "and your morse conversion is:"<< "\n "<< AlphaToMorse;
     return 0;
 }
